@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+.downn{
+  padding-top: 65px !important;
+  margin-bottom: 50px;
+}
+.fontt{
+  font-weight: bold;
+  font-size: 2rem;
+  text-decoration: underline;
+  color: var(--first-color);
+  font-family:'Poppins'
+}
+.card{
+  color: rgb(0, 0, 0);
+  box-shadow: 0 4px 8px 0 rgba(209, 209, 209, 0.2), 0 6px 20px 0 rgba(175, 174, 174, 0.19);
+  cursor: pointer;
+  transition: transform 0.5s;
+  background-color:#ffffff;
+}
+.card:hover{
+  transform: translateY(-20px);
+}
+.ibag{
+  height: 170px;
+}
